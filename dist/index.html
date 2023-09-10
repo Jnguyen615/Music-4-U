@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webpack Starter Kit</title>
-</head>
-<body>
-  <img src="./images/turing-logo.png" alt="turing logo">
-  
-  <!-- Do not include the scripts.js or class files here - it is done by the webpack server -->
-  <script src="bundle.js"></script>
-
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Music-4-U</title>
+  </head>
+  <body>
+    <section class="nav">
+      <nav>
+        <section class="admin-section">
+          <img
+            class="user-icon"
+            src="https://icon-library.com/images/user-icon-free/user-icon-free-20.jpg"
+          />
+          <p class="admin-username">Admin Username</p>
+          <img
+            class="down-arrow"
+            src="https://www.svgrepo.com/show/364317/caret-down-fill.svg"
+          />
+        </section>
+        <ul class="nav-bar">
+          <li><a class="list-button"></a>🖇️ SHARES</li>
+          <li><a class="list-button"></a>▶️ PLAYLISTS</li>
+          <li><a class="list-button"></a>📹 PERSONAL VIDEOS</li>
+        </ul>
+        <h1>🎶Music-4-U!🎶</h1>
+        <section></section>
+      </nav>
+    </section>
+    <h2>Shares</h2>
+    <section class="card-section" id="cards">
+      <!-- Cards will be added here -->
+    </section>
+    <script src="bundle.js"></script>
+  </body>
 </html>

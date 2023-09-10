@@ -1,3 +1,154 @@
+* {
+  /* margin: 0; */
+  /* border: 1px solid black; */
+  font-family: 'Montserrat', sans-serif;
+  color: #242423
+}
+
 body {
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  height: 100%;
+  background-color: #E8EDDF
+
+}
+
+nav {
+  background-color: #F5CB5C;
+  margin-bottom: -5%
+}
+
+.admin-section {
+  display: flex;
+  align-items: center
+}
+
+.admin-username {
+  font-size: 10px;
+  margin-left: 45px
+}
+
+.user-icon {
+  height: 18px;
+  width: 23px;
+  margin-left: 83%
+}
+
+.down-arrow {
+  height: 16px;
+}
+
+ul {
+  margin-right: 30%;
+  display:flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+li {
+  font-size: 15px;
+  padding-left: 4%;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4d514d;
+  margin-top: -3% 
+}
+
+h2 {
+  margin-top: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+}
+
+/* .list-button {
+
+} */
+img {
+  height: 225px;
+  width: 242px;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 11%;
+  border: 1px solid black;
+  width: 70%;
+  text-align: center;
+  box-shadow: 0px 10px 5px 3px black;
+  height: 93%;
+  background-color: #CFDBD5;
+}
+
+.arrow {
+  background-color: transparent;
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
+
+.views {
+  position: relative;
+  color: white;
+  margin-left: 60%;
+  margin-top: -32%;
+  font-size: 20px;
+}
+
+h3 {
+  margin: 0%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.date {
+  margin-bottom: 5%;
+  font-size: 9px;
+}
+
+.link {
+  font-size: 12px;
+  background-color: #E8EDDF;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.playlist {
+  font-size: 15px
+}
+
+.playlist-views {
+  color: white;
+  position: relative;
+  text-align: right;
+  font-size: 30px;
+  margin-top: -11%;
+  margin-right: 8%;
+}
+
+.attachment-number {
+  color: #F5CB5C;
+  font-size: 30px;
+  margin-top: 0%;
 }
