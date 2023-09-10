@@ -1,6 +1,4 @@
 * {
-  /* margin: 0; */
-  /* border: 1px solid black; */
   font-family: 'Montserrat', sans-serif;
   color: #242423
 }
@@ -49,11 +47,6 @@ li {
   padding-left: 4%;
 }
 
-a:hover {
-  cursor: pointer;
-}
-
-
 h1 {
   display: flex;
   justify-content: flex-end;
@@ -70,9 +63,6 @@ h2 {
   font-size: 40px;
 }
 
-/* .list-button {
-
-} */
 img {
   height: 225px;
   width: 242px;
@@ -105,7 +95,6 @@ img {
   margin-top: 2px;
 }
 
-
 .views {
   position: relative;
   color: white;
@@ -128,9 +117,6 @@ h3 {
 .link {
   font-size: 12px;
   background-color: #E8EDDF;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -o-pre-wrap;
   word-wrap: break-word;
 }
 
